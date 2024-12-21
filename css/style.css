@@ -1,0 +1,128 @@
+.comforta {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#body {
+    background-color: #8E57A1;
+}
+
+.logo {
+    border-radius: 100%;
+
+}
+
+.header {
+
+    display: grid;
+    grid-template-columns: 1fr 90%;
+    background-color: #FAE6CA;
+    border-radius: 15px;
+}
+
+.navbar {
+
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+}
+
+
+.ul {
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    /* Distribuye con espacio igual en todos los lados */
+    width: 100%;
+    margin-top: 30px;
+
+
+}
+
+.listnav {
+    padding: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+    transform: scale(1.3);
+    color: #8E57A1;
+
+}
+
+.a {
+    margin-top: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #8E57A1;
+
+}
+
+#footer {
+    position: absolute;
+    color: #FAE6CA;
+    font-family: "Comfortaa", sans-serif;
+}
+
+#header-contacto {
+    color: #FAE6CA;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#form_conteiner {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    background-color: #FAE6CA;
+    border-radius: 4px;
+    padding: 25px;
+    margin: 100px 200px 100px 600px;
+}
+
+.h1 {
+    align-content: center;
+    font-family: "Comfortaa", sans-serif;
+    color: #8E57A1;
+
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin-left: 620px;
+
+    border-radius: 4px;
+
+
+}
+
+#encontranos {
+    color: #FAE6CA;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title,
+.card-text,
+.card-body .btn {
+    font-family: 'Comfortaa', sans-serif;
+    color: #8E57A1;
+}
+
+.btn .btn-success .mt-auto {
+    color: black;
+}
