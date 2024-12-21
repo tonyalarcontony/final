@@ -1,0 +1,64 @@
+.comforta {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#body {
+    background-color: #8E57A1;
+}
+
+.header {
+
+    display: grid;
+    grid-template-columns: 1fr 90%;
+    background-color: #FAE6CA;
+    border-radius: 10px;
+
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+.contactanos,
+.encontranos {
+    display: flex;
+    justify-content: center;
+    color: #FAE6CA;
+    font-family: "Comfortaa", sans-serif;
+}
+
+#form_conteiner {
+    display: grid;
+    grid-template-columns: 100%;
+
+    justify-items: center;
+
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAE6CA;
+    border-radius: 10px;
+    font-family: "Comfortaa", sans-serif;
+    color: #8E57A1;
+}
+
+.mapa {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 650px;
+
+}
+
+#footer {
+    position: absolute;
+    color: #FAE6CA;
+    font-family: "Comfortaa", sans-serif;
+}
