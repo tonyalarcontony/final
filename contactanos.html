@@ -23,18 +23,17 @@
     <div id="form_conteiner">
 
         <form id="formulario" action="https://formspree.io/f/xgvwgpwv" method="post">
-            <label id="name">
-                <h4 class="h1">Nombre</h4> <input type="text" placeholder="Ingresa tu nombre" name="nombre">
-            </label>
-            <label id="apellido">
-                <h4 class="h1">Apellido</h4> <input type="text" placeholder="Ingresa tu Apellido" name="apellido">
-            </label id="email">
+            <h4>Nombre</h4>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre">
+            <h4>Apellido</h4>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu Apellido">
             <br>
-            <label>
-                <h4 class="h1">Mail</h4> <input type="email" placeholder="Ingresa tu mail" name="email">
-            </label>
+            <h4>Mail</h4>
+            <input type="email" id="email" name="nombre" placeholder="Ingresa tu Email">
+
             <br>
-            <textarea rows="5" cols="70" id="" placeholder="Dejanos tu consulta 😎" name="mensaje"></textarea>
+            <textarea id="mensaje" rows="5" cols="70" id="" placeholder="Dejanos tu consulta 😎"
+                name="mensaje"></textarea>
             <br>
             <input type="submit">
         </form>
@@ -48,6 +47,7 @@
     <footer id="footer">
         <h3>Votre Parfum - Todos los derechos reservados</h3>
     </footer>
+    <script src="js/funciones-del-formulario.js"></script>
 </body>
 
 </html>
